@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+
+var circle_img = Row (
+    mainAxisSize: MainAxisSize.min,
+    child: CircleAvatar(
+       
+        backgroundImage: NetworkImage('https://picsum.photos/250?image=9'),
+
+    )
+    
+    
+)
+
